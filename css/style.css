@@ -172,3 +172,29 @@ body{
 .menu:hover .menu_svg{
 	opacity: 0;
 }
+.slider_imgs{
+	width: 1240px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main_img{
+	padding-top: 40px;
+	width: 800px;
+	height: 540px;
+	float: left;
+}
+.other_img{
+	width: 410px;
+	height: 260px;
+	margin-top: 40px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	padding: none;
+}
+.other_img2{
+	margin-top: 16px;
+	width: 410px;
+	height: 260px;
+}
