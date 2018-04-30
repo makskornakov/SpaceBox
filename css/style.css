@@ -8,6 +8,9 @@
 	outline: none;
 	text-decoration: none;
 }
+img{
+	user-select: none;
+}
 @font-face {
 	font-family: Open_sansR;
 	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
