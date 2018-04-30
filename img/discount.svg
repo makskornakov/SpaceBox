@@ -1,0 +1,22 @@
+
+<svg width="40px" height="20px" viewBox="0 0 40 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1440" transform="translate(-1290.000000, -123.000000)">
+            <g id="all">
+                <g id="slider" transform="translate(0.000000, 73.000000)">
+                    <g id="1-photo" transform="translate(930.000000, 40.000000)">
+                        <g id="discount" transform="translate(360.000000, 10.000000)">
+                            <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="38" height="18"></rect>
+                            <text id="-25%" font-family="Play-Bold, Play" font-size="11" font-weight="bold" letter-spacing="1.12750006" fill="#FFFFFF">
+                                <tspan x="5" y="14">-25%</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

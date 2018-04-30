@@ -23,6 +23,9 @@ img{
 	font-family: PlayR;
 	src: url(../fonts/Play/Play-Regular.ttf);
 }
+span,h1,h2,h3,h4,h5,h6{
+	letter-spacing: 1.13px;
+}
 body{
 	height: 3370px;
 	width: 100%;
@@ -182,10 +185,11 @@ body{
 	margin-right: auto;
 }
 .main_img{
-	padding-top: 40px;
 	width: 800px;
 	height: 540px;
 	float: left;
+	margin-top: 40px;
+	background: url(http://via.placeholder.com/800x540);
 }
 .other_img{
 	width: 410px;
@@ -196,8 +200,56 @@ body{
 	margin-bottom: 0px;
 	padding: none;
 }
-.other_img2{
-	margin-top: 16px;
+.other_img1{
+	position: relative;
 	width: 410px;
 	height: 260px;
+	background: url(http://via.placeholder.com/410x260);
+}
+.other_img2{
+	background: url(http://via.placeholder.com/410x260);
+	margin-top: 20px;
+	width: 410px;
+	float: left;
+	height: 260px;
+}
+.new{
+	border: solid #fff 5px;
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 45px;
+	width: 110px;
+}
+.new_span{
+	font-family: PlayB;
+	font-size: 36px;
+	color: #fff;
+	vertical-align: center;
+	text-align: center;
+	width: 102px;
+	margin-left: 12px
+}
+.discount{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 36px;
+	height: 16px;
+	border: solid #fff 2px;
+}
+.discount_span{
+	float: left;
+	margin-left: 6px;
+	margin-top: 2px;
+	font-size: 11px;
+	font-family: PlayB;
+	color: #fff;
+}
+.semi_block{
+	position: absolute;
+	bottom: 0px;
+	width: 410px;
+	opacity: 0.5;
+	height: 50px;
+	background: #000;
 }
