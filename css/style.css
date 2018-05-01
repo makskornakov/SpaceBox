@@ -12,6 +12,10 @@ img{
 	user-select: none;
 }
 @font-face {
+	font-family: RubikB;
+	src: url(../fonts/Rubik/Rubik-Bold.ttf);
+}
+@font-face {
 	font-family: Open_sansR;
 	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
 }
@@ -47,7 +51,7 @@ body{
 	height: 790px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #fff;
+
 }
 .content2{
 	margin-top: 170px;
@@ -203,15 +207,12 @@ body{
 .other_img1{
 	position: relative;
 	width: 410px;
+	float: left;
 	height: 260px;
 	background: url(http://via.placeholder.com/410x260);
 }
-.other_img2{
-	background: url(http://via.placeholder.com/410x260);
+.margin_top20{
 	margin-top: 20px;
-	width: 410px;
-	float: left;
-	height: 260px;
 }
 .new{
 	border: solid #fff 5px;
@@ -230,6 +231,7 @@ body{
 	margin-left: 12px
 }
 .discount{
+	display: table;
 	margin-top: 10px;
 	margin-right: 10px;
 	float: right;
@@ -238,9 +240,9 @@ body{
 	border: solid #fff 2px;
 }
 .discount_span{
-	float: left;
-	margin-left: 6px;
-	margin-top: 2px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 	font-size: 11px;
 	font-family: PlayB;
 	color: #fff;
@@ -252,4 +254,89 @@ body{
 	opacity: 0.5;
 	height: 50px;
 	background: #000;
+}
+.semi_podblock{
+	float: left;
+	display: table;
+	width: 280px;
+	height: 50px;
+}
+.semi_h3{
+	padding-left: 10px;
+	max-width: 280px;
+	display: table-cell;
+	margin-left: 10px;
+	letter-spacing: 1.44px;
+	font-family: PlayR;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #fff;
+}
+.semi_price{
+	margin-top: 10px;
+	margin-right: 45px;
+	float: right;
+	display: table;
+	width: 51px;
+	height: 21px;
+	border: solid #fff 2px;
+}
+.semi_price_span{
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	color: #fff;
+	font-family: RubikB;
+	font-size: 14px;
+}
+.pages_1{
+	width: 850px;
+	height: 44px;
+}
+.pages_h2s{
+	margin-left: 20px;
+	float: left;
+}
+.page_h2{
+	float: left;
+	margin-right: 50px;
+	font-family: PlayR;
+	font-size: 18px;
+	letter-spacing: 2.77px;
+	color: #979797;
+}
+#page2{
+	color: #222224;
+}
+.line_pages{
+	width: 850px;
+	height: 1px;
+	background: #B2B2B2;
+	float: left;
+}
+.bline{
+	height: 3px;
+	background: #474747;
+	float: left;
+}
+.black_lines{
+	margin-top: 22px;
+	width: 850px;
+	float: left;
+	height: 3px;
+}
+.bline1{
+	opacity: 0;
+	width: 175px;
+}
+.bline2{
+	width: 125px;
+}
+.bline3{
+	opacity: 0;
+	width: 175px;
+}
+.bline4{
+	opacity: 0;
+	width: 150px;
 }
