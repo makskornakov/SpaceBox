@@ -52,6 +52,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 
+
 }
 .content2{
 	margin-top: 170px;
@@ -250,9 +251,10 @@ body{
 	color: #fff;
 }
 .semi_block{
+	display: table;
 	position: absolute;
 	bottom: 0px;
-	width: 410px;
+	width: 100%;
 	opacity: 0.5;
 	height: 50px;
 	background: #000;
@@ -293,6 +295,7 @@ body{
 	font-size: 14px;
 }
 .pages_1{
+	float: left;
 	width: 850px;
 	height: 44px;
 }
@@ -344,3 +347,191 @@ body{
 	opacity: 0;
 	width: 150px;
 }
+.main_games{
+	float: left;
+	width: 850px;
+	height: 705px;
+	margin-top: 30px;
+}
+.last1{
+	margin-top: 21px;
+	float: left;
+	width: 395px;
+	height: 419px;
+}
+.left_part{
+	width: 850px;
+	float: left;
+}
+.right_part{
+	width: 395px;
+	float: right;
+}
+.last2{
+	float: left;
+	width: 395px;
+	height: 304px;
+	margin-top: 46px;
+}
+.game_line{
+	width: 850px;
+}
+.game_line1{
+	height: 230px;
+}
+.game_line2{
+	margin-top: 30px;
+	height: 175px;
+}
+.game_line3{
+	margin-top: 30px;
+	height: 240px;
+}
+.game_block{
+	position: relative;
+	float: left;
+}
+.block1{
+	width: 490px;
+	height: 230px;
+	background: url(http://via.placeholder.com/490x230);
+}
+.block2{
+	width: 330px;
+	margin-left: 30px;
+	height: 230px;
+	background: url(http://via.placeholder.com/330x230);
+}
+.game_name_h3{
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	font-family: PlayR;
+	font-size: 18px;
+	padding-left: 15px;
+	letter-spacing: 1.3px;
+	padding-right: 15px;
+}
+.block3{
+	width: 310px;
+	height: 175px;
+	background: url(http://via.placeholder.com/310x175);
+}
+.block4{
+	width: 240px;
+	margin-left: 30px;
+	height: 175px;
+	background: url(http://via.placeholder.com/240x175);
+}
+.block5{
+	width: 240px;
+	margin-left: 30px;
+	height: 175px;
+	background: url(http://via.placeholder.com/240x175);
+}
+.smaller_h3{
+	letter-spacing: 1.5px;
+	font-size: 16px;
+}
+.smaller{
+	height: 45px;
+}
+.block6{
+	width: 410px;
+	height: 240px;
+	background: url(http://via.placeholder.com/410x240);
+}
+.block7{
+	margin-left: 30px;
+	width: 410px;
+	height: 240px;
+	background: url(http://via.placeholder.com/410x240);
+}
+.last1_h2{
+	font-family: PlayR;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+.column_1{
+	height: 330px;
+	float: left;
+	margin-top: 30px;
+	width: 220px;
+}
+.bitnam{
+	background: url(http://via.placeholder.com/220x100);
+	width: 220px;
+	height: 100px;
+}
+.margin15{
+	margin-top: 15px;
+}
+.special_offer{
+	height: 330px;
+	width: 160px;
+	background: #F88948;
+	float: right;
+	margin-top: 30px;
+}
+.special_offer_h2{
+	font-family: PlayB;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 90px;
+}
+.special_offer_h3{
+	font-family: PlayB;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 7px;
+}
+.box{
+	width: 59px;
+	height: 57px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background: url(../img/box.svg);
+}
+.sm_div{
+	width: 100%;
+	float: left;
+}
+.sm_vse{
+	text-decoration: underline;
+	cursor: pointer;
+	margin-top: 20px;
+	font-family: PlayB;
+	font-size: 14px;
+	letter-spacing: 1.44px;
+	text-align: center;
+}
+.special_offer_2{
+	height: 215px;
+	width: 160px;
+	background: #FC522D;
+	float: right;
+	margin-top: 30px;
+}
+.white{
+	font-family: PlayR;
+	margin-top: 40px;
+	color: #fff;
+}
+.shorter{
+	height: 215px;
+}
+.big_letter{
+	margin-top: 12px;
+	letter-spacing: 2.57px;
+}
+.key{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	width: 47px;
+	height: 49px;
+	background: url(../img/key.svg);
+}
+
+
