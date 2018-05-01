@@ -51,8 +51,6 @@ body{
 	height: 790px;
 	margin-left: auto;
 	margin-right: auto;
-
-
 }
 .content2{
 	margin-top: 170px;
@@ -263,6 +261,7 @@ body{
 	top: 10px;
 	right: 10px;
 	float: right;
+	box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.55);
 	width: 36px;
 	height: 16px;
 	border: solid #fff 2px;
@@ -414,8 +413,16 @@ body{
 	height: 240px;
 }
 .game_block{
-	position: relative;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+.game_block:hover{
+	transform: scale(1.04);
+}
+.norm{
+	overflow: hidden;
 	float: left;
+	position: relative;
 }
 .block1{
 	width: 490px;
@@ -424,9 +431,25 @@ body{
 }
 .block2{
 	width: 330px;
-	margin-left: 30px;
 	height: 230px;
 	background: url(http://via.placeholder.com/330x230);
+}
+.margin_main{
+	margin-left: 30px;
+}
+.last_special_hover{
+	margin-top: 30px;
+	overflow: hidden;
+	width: 160px;
+	height: 330px;
+	float: right;
+}
+.last_2_special_hover{
+	margin-top: 30px;
+	overflow: hidden;
+	width: 160px;
+	height: 215px;
+	float: right;
 }
 .game_name_h3{
 	display: table-cell;
@@ -445,13 +468,11 @@ body{
 }
 .block4{
 	width: 240px;
-	margin-left: 30px;
 	height: 175px;
 	background: url(http://via.placeholder.com/240x175);
 }
 .block5{
 	width: 240px;
-	margin-left: 30px;
 	height: 175px;
 	background: url(http://via.placeholder.com/240x175);
 }
@@ -468,7 +489,6 @@ body{
 	background: url(http://via.placeholder.com/410x240);
 }
 .block7{
-	margin-left: 30px;
 	width: 410px;
 	height: 240px;
 	background: url(http://via.placeholder.com/410x240);
@@ -485,31 +505,42 @@ body{
 	width: 220px;
 }
 .bitnam{
+	transition-duration: 0.2s;
 	background: url(http://via.placeholder.com/220x100);
 	width: 220px;
 	height: 100px;
+	cursor: pointer;
+}
+.bitnam:hover{
+	transform: scale(1.04);
+}
+.last_hover{
+	overflow: hidden;
 }
 .margin15{
 	margin-top: 15px;
 }
 .special_offer{
+	cursor: pointer;
+	transition-duration: 0.2s;
 	height: 330px;
 	width: 160px;
 	background: #F88948;
-	float: right;
-	margin-top: 30px;
+}
+.special_offer:hover{
+	transform: scale(1.03);
 }
 .special_offer_h2{
 	font-family: PlayB;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 90px;
+	padding-top: 90px;
 }
 .special_offer_h3{
 	font-family: PlayB;
 	font-size: 13px;
 	text-align: center;
-	margin-top: 7px;
+	padding-top: 7px;
 }
 .box{
 	width: 59px;
@@ -535,20 +566,24 @@ body{
 .special_offer_2{
 	height: 215px;
 	width: 160px;
+	cursor: pointer;
 	background: #FC522D;
 	float: right;
-	margin-top: 30px;
+	transition-duration: 0.2s;
+}
+.special_offer_2:hover{
+	transform: scale(1.03);
 }
 .white{
 	font-family: PlayR;
-	margin-top: 40px;
+	padding-top: 40px;
 	color: #fff;
 }
 .shorter{
 	height: 215px;
 }
 .big_letter{
-	margin-top: 12px;
+	padding-top: 12px;
 	letter-spacing: 2.57px;
 }
 .key{
