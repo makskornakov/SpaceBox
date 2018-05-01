@@ -301,6 +301,7 @@ body{
 	float: left;
 }
 .page_h2{
+	cursor: pointer;
 	float: left;
 	margin-right: 50px;
 	font-family: PlayR;
