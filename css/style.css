@@ -190,13 +190,27 @@ body{
 	margin-right: auto;
 }
 .main_img{
+	cursor: pointer;
 	width: 800px;
 	height: 540px;
+	background: url(http://via.placeholder.com/800x540);
+	transition-duration: 0.2s;
+}
+.overflow{
+	overflow: hidden;
+}
+.main_img_upper{
+	position: relative;
 	float: left;
 	margin-top: 40px;
-	background: url(http://via.placeholder.com/800x540);
+	width: 800px;
+	height: 540px;
+}
+.main_img:hover{
+	transform: scale(1.02);
 }
 .other_img{
+	position: relative;
 	width: 410px;
 	height: 260px;
 	margin-top: 40px;
@@ -206,19 +220,29 @@ body{
 	padding: none;
 }
 .other_img1{
-	position: relative;
+	cursor: pointer;
+	transition-duration: 0.2s;
 	width: 410px;
-	float: left;
 	height: 260px;
 	background: url(http://via.placeholder.com/410x260);
+}
+.other_img1:hover{
+	transform: scale(1.03);
+}
+.other_img1_upper{
+	position: relative;
+	float: left;
+	width: 410px;
+	height: 260px;
 }
 .margin_top20{
 	margin-top: 20px;
 }
 .new{
+	position: absolute;
 	user-select: none;
 	border: solid #fff 5px;
-	margin-top: 20px;
+	top: 20px;
 	margin-left: 30px;
 	height: 45px;
 	width: 110px;
@@ -233,10 +257,11 @@ body{
 	margin-left: 12px
 }
 .discount{
+	position: absolute;
 	user-select: none;
 	display: table;
-	margin-top: 10px;
-	margin-right: 10px;
+	top: 10px;
+	right: 10px;
 	float: right;
 	width: 36px;
 	height: 16px;
@@ -266,6 +291,7 @@ body{
 	height: 50px;
 }
 .semi_h3{
+	cursor: pointer;
 	padding-left: 10px;
 	max-width: 280px;
 	display: table-cell;
@@ -532,6 +558,41 @@ body{
 	width: 47px;
 	height: 49px;
 	background: url(../img/key.svg);
+}
+.content2_h2{
+	color: #fff;
+	font-family: PlayB;
+	font-size: 24px;
+	padding-top: 30px;
+	margin-left: 70px;
+}
+.c2_column{
+	width: 320px;
+	height: 443px;
+	float: left;
+}
+.columns_2{
+	margin-top: 30px;
+	width: 1220px;
+	height: 443px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.margin130{
+	margin-right: 130px;
+}
+.c2_sale_span{
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 4px;
+	margin-left: 5px;
+	font-family: PlayB;
+}
+.c2_img{
+	width: 320px;
+	margin-top: 20px;
+	height: 120px;
+	background: url(http://via.placeholder.com/320x120);
 }
 
 
