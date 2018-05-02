@@ -69,7 +69,6 @@ body{
 	width: 100%;
 	height: 226px;
 	margin-top: 80px;
-	background: #fff;
 }
 .adv_block{
 	width: 100%;
@@ -711,3 +710,75 @@ body{
 	bottom: 0px;
 	position: absolute;
 }
+.all_advs{
+	width: 1010px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.margin_ad{
+	margin-left: 70px;
+}
+.ad_1{
+	margin-top: 48px;
+	float: left;
+	width: 200px;
+	height: 102px;
+}
+.ad_img1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	height: 60px;
+}
+.img1{
+	background: url(../img/phone.svg);
+}
+.img2{
+	background: url(../img/mail.svg);
+}
+.img3{
+	background: url(../img/www.svg);
+}
+.img4{
+	background: url(../img/like.svg);
+}
+.ad_div_span{
+	margin-top: 10px;
+	height: 32px;
+	width: 200px;
+}
+.ad_span{
+	line-height: 16px;
+	font-family: PlayB;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;s
+}
+.copyright{
+	font-size: 13px;
+	font-family: PlayR;
+	margin-left: 40px;
+}
+.copy_div{
+	float: left;
+	margin-top: 21px;
+}
+.special_pages_div{
+	float: right;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.special_page{
+	cursor: pointer;
+	font-family: PlayB;
+	font-size: 14px;
+	letter-spacing: normal;
+	float: left;
+}
+.margin_right_special{
+	margin-right: 40px;
+}
+
+
+
