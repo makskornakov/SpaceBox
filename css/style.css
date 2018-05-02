@@ -61,7 +61,6 @@ body{
 .content3{
 	margin-top: 70px;
 	max-width: 1220px;
-	background: #fff;
 	margin-left: auto;
 	margin-right: auto;
 	height: 698px;
@@ -637,5 +636,34 @@ body{
 .c2_img:hover{
 	transform: scale(1.05);
 }
-
-
+.c3_h2{
+	font-family: PlayB;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+.c3_p{
+	font-family: Open_sansR;
+	font-size: 16px;
+	color: #6F6F6F;
+	width: 900px;
+	margin-top: 33px;
+}
+.othermargin{
+	margin-top: 43px;
+}
+.news_div{
+	width: 1060px;
+	height: 360px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.yes_margin{
+	margin-right: 50px;
+}
+.new_article{
+	float: left;
+	width: 320px;
+	height: 360px;
+	background: #ff1;
+}
