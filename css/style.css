@@ -84,19 +84,65 @@ body{
 	float: left;
 	margin-top: 7px;
 }
+.content_menu{
+	display: table;
+	width: 700px;
+	height: 73px;
+}
+.cover{
+	width: 73px;
+	height: 73px;
+	background: #fff;
+	position: absolute;
+	right: 0px;
+}
+.open_menu{
+	height: 73px;
+	background: #fff;
+	float: left;
+	transition-duration: 0.7s;
+	width: 0px;
+}
 .menu_group{
 	float: right;
 	height: 73px;
 	background: #555;
 	margin-right: 73px;
 }
+.curs_point{
+	cursor: pointer;
+}
+.str{
+	display: table-cell;
+	height: 73px;
+	vertical-align: middle;
+	font-family: PlayB;
+	text-align: center;
+}
 .menu_obj{
 	background: #fff;
 	width: 73px;
 	cursor: pointer;
+	position: relative;
 	height: 73px;
 	float: left;
 	transition-duration: 0.55s;
+}
+#input_id{
+	display: none;
+}
+.search_input{
+	color: #fff;
+	font-family: PlayB;
+	font-size: 18px;
+	width: 294px;
+	height: 30px;
+	position: absolute;
+	left: 20px;
+	top: 21px;
+	background: none;
+	outline: none;
+	border: none;
 }
 .all_svg{
 	position: absolute;
@@ -107,19 +153,19 @@ body{
 	transition-duration: 0.3s;
 }
 .search_svg{
+	right: 21px;
 	width: 31px;
 	height: 31px;
 	background: url(../img/search.svg);
 	margin-top: 21px;
-	margin-left: 21px;
 }
 .search_svg_active{
 	opacity: 0;
+	right: 21px;
 	background: url(../img/search_active.svg);
 	width: 31px;
 	height: 31px;
 	margin-top: 21px;
-	margin-left: 21px;
 }
 .search:hover .search_svg_active {
 	opacity: 1;
@@ -129,6 +175,12 @@ body{
 }
 .search:hover .search_svg {
 	opacity: 0;
+}
+.upper_layer{
+	position: absolute;
+	width: 73px;
+	right: 0px;
+	height: 73px;
 }
 .cart_svg{
 	width: 35px;

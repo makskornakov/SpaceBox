@@ -2,25 +2,36 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css?ver=0">
-	<script src="js/script.js?ver=0"></script>
 	<title></title>
 </head>
 <body>
+	<script src="script/script.js?ver=0"></script>
 	<header class="header">
 		<div class="logo"></div>
 		<div class="menu_group">
-			<div class="menu_obj search">
-				<div class="search_svg all_svg"></div>
-				<div class="search_svg_active all_svg"></div>
+			<div class="menu_obj search" id="search_id">
+				<input type="" name="" class="search_input" id="input_id">
+				<div class="search_svg all_svg" id="b_norm"></div>
+				<div class="search_svg_active all_svg" id="b_active"></div>
+				<div class="upper_layer" onclick="searchclick()"></div>
 			</div>
 			<div class="menu_obj cart">
 				<div class="cart_svg all_svg"></div>
 				<div class="cart_svg_active all_svg"></div>
 			</div>
-			<div class="menu_obj menu">
-				<div class="menu_svg all_svg"></div>
-				<div class="menu_svg_active all_svg"></div>
+			<div class="open_menu" id="open_menu_id">
+				<div class="content_menu" id="content_id">
+					<span class="str"><span class="curs_point">Страница1</span></span>
+					<span class="str"><span class="curs_point">Страница1</span></span>
+					<span class="str"><span class="curs_point">Страница1</span></span>
+					<span class="str"><span class="curs_point">Страница1</span></span>
+				</div>
 			</div>
+			<div class="menu_obj menu" onclick="menuclick()">
+				<div class="menu_svg all_svg" id="menu_animate"></div>
+				<div class="menu_svg_active all_svg" id="menu_animate2"></div>
+			</div>
+			<div class="cover"></div>
 		</div>
 	</header>
 	<div class="slider">
@@ -271,7 +282,7 @@
 			<h5 class="special_page">Каталог</h5>
 		</div>
 	</div>
-	<script src="js/script.js?ver=0"></script>
+	<script src="script/script.js?ver=0"></script>
 </body>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
