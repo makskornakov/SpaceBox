@@ -11,6 +11,10 @@
 img{
 	user-select: none;
 }
+a{
+	color: #000;
+	text-decoration: none;
+}
 @font-face {
 	font-family: RubikB;
 	src: url(../fonts/Rubik/Rubik-Bold.ttf);
@@ -29,6 +33,9 @@ img{
 }
 span,h1,h2,h3,h4,h5,h6{
 	letter-spacing: 1.13px;
+}
+.all{
+	overflow: hidden;
 }
 body{
 	height: 3370px;
@@ -831,6 +838,82 @@ body{
 .margin_right_special{
 	margin-right: 40px;
 }
+.g_upper{
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+.g_black{
+	width: 100%;
+	height: 305px;
+	background: #222224;
+}
+.g_content{
+	width: 100%;
+	margin-top: 50px;
+}
+.g_left{
+	width: 400px;
+	height: 842px;
+
+	margin-left: 105px;
+	float: left;
+}
+.g_right{
+	width: 785px;
+	height: 960px;
+	background: #f5f;
+	float: right;
+	margin-right: 105px;
+}
+.g_short{
+	width: 100%;
+	height: 445px;
+	background: #222224;
+}
+.g_sim{
+	width: 100%;
+	height: 367px;
+	background: #fff;
+	margin-top: 30px;
+}
+.g_main_left{
+	margin-left: 55px;
+	position: absolute;
+	top: 90px;
+	height: 260px;
+	width: 410px;
+	background: url(http://via.placeholder.com/410x260);
+}
+.g_up_h2{
+	margin-left: 55px;
+	position: absolute;
+	top: 43px;
+	font-family: PlayB;
+	font-size: 24px;
+	color: #fff;
+}
+.g_main_right{
+	width: 840px;
+	height: 193px;
+	background: #ff1;
+	position: absolute;
+	top: 97px;
+	right: 90px;
+}
+.g_icons{
+	width: 340px;
+	height: 193px;
+	background: #f4f;
+	float: left;
+}
+.g_right_part_icons{
+	float: right;
+	width: 500px;
+	height: 193px;
+	background: #f37;
+}
+
 
 
 
