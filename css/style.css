@@ -48,6 +48,7 @@ body{
 	background: #fff;
 }
 .slider{
+	position: relative;
 	width: 100%;
 	height: 620px;
 	background: #222224;
@@ -861,10 +862,15 @@ body{
 }
 .g_right{
 	width: 785px;
-	height: 960px;
-	background: #f5f;
+	background: #fff;
 	float: right;
 	margin-right: 105px;
+}
+.g_right_content{
+	width: 725px;
+	margin-left: 30px;
+	float: left;
+	margin-top: 25px;
 }
 .g_short{
 	width: 100%;
@@ -896,7 +902,6 @@ body{
 .g_main_right{
 	width: 840px;
 	height: 193px;
-	background: #ff1;
 	position: absolute;
 	top: 97px;
 	right: 90px;
@@ -904,14 +909,194 @@ body{
 .g_icons{
 	width: 340px;
 	height: 193px;
-	background: #f4f;
 	float: left;
 }
 .g_right_part_icons{
 	float: right;
 	width: 500px;
 	height: 193px;
-	background: #f37;
+}
+.g_icon_div{
+	height: 37px;
+	margin-bottom: 15px;
+
+	width: 100%;
+}
+.g_icon{
+	width: 37px;
+	height: 37px;
+	float: left;
+}
+.g_icon_1{
+	background: url(../img/g_ok.svg);
+	background-size: 100%;
+}
+.g_icon_2{
+	background: url(../img/g_flag.svg);
+	background-size: 100%;
+}
+.g_icon_3{
+	background: url(../img/g_key.svg);
+	background-size: 100%;
+}
+.g_icon_4{
+	background: url(../img/g_percent.svg);
+	background-size: 100%;
+}
+.g_icon_h4{
+	font-family: PlayB;
+	font-size: 18px;
+	color: #fff;
+	padding-top: 8px;
+	float: left;
+	margin-left: 15px;
+}
+.g_buts{
+	user-select: none;
+	width: 260px;
+	height: 180px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.g_but_1{
+	cursor: pointer;
+	display: table;
+	background: #f55500;
+	width: 250px;
+	height: 70px;
+	border: 5px solid #fff;
+}
+.g_2_buts{
+	margin-top: 10px;
+	width: 100%;
+	height: 60px;
+}
+.g_price{
+	display: table;
+	float: left;
+	width: 130px;
+	height: 50px;
+	border: solid 5px #fff;
+}
+.g_buy{
+	cursor: pointer;
+	display: table;
+	width: 100px;
+	height: 50px;
+	border: solid #f55500 5px;
+	float: left;
+	margin-left: 10px;
+}
+.g_howto{
+	cursor: pointer;
+	display: table;
+	width: 136px;
+	height: 19px;
+	border: solid 2px #fff;
+	margin-top: 10px;
+}
+.g_1_h4{
+	font-family: PlayB;
+	font-size: 24px;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.g_price_h5{
+	color: #fff;
+	font-size: 36px;
+	font-family: PlayB;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.g_cart{
+	width: 44px;
+	height: 39px;
+	background: url(../img/cart_active.svg);
+	background-size: 101%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.g_howto_span{
+	font-family: PlayB;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 11px;
+	text-align: center;
+}
+.invisible{
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	background: #222224;
+	opacity: 0.8;
+	transition-duration: 0.5s;
+}
+.in_home{
+	height: 620px;
+}
+#hider{
+	height: 0px;
+}
+.g_td_table_1{
+	width: 110px;
+}
+.g_td_table_2{
+	width: 266px;
+}
+.g_table_o{
+	font-family: PlayR;
+	float: right;
+	font-size: 14px;
+	color: #f55500;
+}
+.g_table_2{
+	font-family: PlayR;
+	font-size: 14px;
+	color: #B9B9B9;
+	margin-left: 25px;
+}
+.g_table{
+	padding-top: 33px;
+	margin-left: 15px;
+}
+.g_td{
+	padding-top: 20px;
+}
+.g_right_header{
+	font-size: 18px;
+	font-family: PlayB;
+	color: #f55500;
+}
+.g_par{
+	font-family: Open_sansR;
+	margin-top: 20px;
+	color: #4D4D4D;
+	font-size: 14px;
+}
+.g_margin_top_h3{
+	margin-top: 30px;
+}
+.g_li_special{
+	color: #222224;
+	font-size: 14px;
+	font-family: Open_sansB;
+}
+.g_li_sp{
+	color: #222224;
+	font-family: Open_sansR;
+	font-size: 14px;
+}
+.g_spec{
+	margin-top: 30px;
+}
+.g_ul{
+	margin-left: 30px;
 }
 
 

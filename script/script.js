@@ -6,6 +6,7 @@ function searchclick(){
 		document.getElementById('search_id').style.background = '#f55500';
 		document.getElementById('input_id').style.display = 'block';
 		document.getElementById('input_id').focus();
+		document.getElementById('hider').style.height = '100%';
 		$torf_s = true;
 		if ($torf_m == true) {
 			menuclick()
@@ -15,6 +16,7 @@ function searchclick(){
 		document.getElementById('search_id').style.width = '73px';
 		document.getElementById('search_id').style.background = '';
 		document.getElementById('input_id').style.display = 'none';
+		document.getElementById('hider').style.height = '0px';
 		$torf_s = false;
 	}
 }
