@@ -6,17 +6,19 @@ function searchclick(){
 		document.getElementById('search_id').style.background = '#f55500';
 		document.getElementById('input_id').style.display = 'block';
 		document.getElementById('input_id').focus();
-		document.getElementById('hider').style.height = '100%';
+		document.getElementById('hider').style.top = "-100%";
+
 		$torf_s = true;
 		if ($torf_m == true) {
 			menuclick()
 		}
 	}
 	else if ($torf_s == true){
+		document.getElementById('hider').style.top = "0px";
 		document.getElementById('search_id').style.width = '73px';
 		document.getElementById('search_id').style.background = '';
 		document.getElementById('input_id').style.display = 'none';
-		document.getElementById('hider').style.height = '0px';
+		document.getElementById('input_id').value = "";
 		$torf_s = false;
 	}
 }

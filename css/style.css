@@ -48,6 +48,7 @@ body{
 	background: #fff;
 }
 .slider{
+	overflow: hidden;
 	position: relative;
 	width: 100%;
 	height: 620px;
@@ -569,6 +570,73 @@ body{
 	height: 100px;
 	cursor: pointer;
 }
+.searh_block_result{
+	width: 380px;
+	float: right;
+	margin-right: 219px;
+	transition-duration: 0.5s;
+	background: #F3F3F3;
+}
+.search_result_img{
+	width: 90px;
+	height: 40px;
+	margin-left: 20px;
+	float: left;
+	background: url(http://via.placeholder.com/90x40);
+}
+.search_game_line{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 1px;
+	background: #D8D8D8;
+}
+.search_result_h4_div{
+	width: 170px;
+	height: 35px;
+	margin-top: 3px;
+	float: left;
+	margin-left: 10px;
+	display: table;
+}
+.search_result_h4{
+	display: table-cell;
+	vertical-align: middle;
+	font-family: PlayR;
+	font-size: 14px;
+	color: #222224;
+}
+.margin_top_search_1{
+	margin-top: 5px;
+}
+.margin_top_search_2{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.search_result_span{
+	font-size: 11px;
+	display: table-cell;
+	text-align: center;
+	padding-top: 2px;
+	font-family: RubikB;
+}
+.search_result_price{
+	width: 41px;
+	height: 16px;
+	border: solid #222224 2px;
+	float: left;
+	margin-top: 11px;
+	margin-left: 30px;
+	display: table;
+}
+.margin_top_search{
+	margin-top: 10px;
+}
+.serch_result_game{
+	position: relative;
+	width: 100%;
+	height: 45px;
+}
 .bitnam:hover{
 	transform: scale(1.04);
 }
@@ -1031,17 +1099,11 @@ body{
 }
 .invisible{
 	top: 0px;
+	height: 100%;
 	position: absolute;
 	width: 100%;
-	background: #222224;
-	opacity: 0.8;
+	background: rgb(34,34,36,0.8);
 	transition-duration: 0.5s;
-}
-.in_home{
-	height: 620px;
-}
-#hider{
-	height: 0px;
 }
 .g_td_table_1{
 	width: 110px;
@@ -1098,6 +1160,38 @@ body{
 .g_ul{
 	margin-left: 30px;
 }
+.g_system_table{
+	margin-bottom: 70px;
+	font-size: 14px;
+	font-family: Open_sansR;
+	margin-top: 30px;
+	width: 100%;
+	height: 50px;
+}
+.g_td_system_1{
+	height: 40px;
+	color: #8C8C8C;
+	width: 190px;
+}
+.g_td_system_2{
+	color: #222224;
+	width: 495px;
+}
+@media screen and (max-width: 1310px){
+	.content_menu{
+		width: 500px;
+	}
+	.open_menu{
+		max-width: 500px;
+	}
+	.menu{
+		transition-duration: 1s;
+	}
+	.search{
+		transition-duration: 0.7s;
+	}
+}
+
 
 
 
