@@ -857,6 +857,7 @@ body{
 	margin-right: 40px;
 }
 .g_upper{
+	overflow: hidden;
 	position: relative;
 	width: 100%;
 	height: 350px;
@@ -1138,6 +1139,23 @@ body{
 	}
 	.search{
 		transition-duration: 0.7s;
+	}
+	.slider{
+		height: 1000px;
+	}
+	.main_img_upper{
+		margin-left: 35px;
+	}
+	.other_img{
+		width: 870px;
+		margin-left: 0px;
+	}
+	.margin_top20{
+		margin-top: 0px;
+		margin-left: 50px;
+	}
+	.slider_imgs{
+		width: 870px;
 	}
 }
 @media screen{
