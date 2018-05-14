@@ -1202,9 +1202,7 @@ body{
 	}
 }
 @media screen{
-	body{
-		background: #ff1;
-	}
+	
 	/*.search:hover .search_svg_active {
 		opacity: 1;
 	}
