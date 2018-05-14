@@ -1202,7 +1202,6 @@ body{
 	}
 }
 @media screen{
-	
 	/*.search:hover .search_svg_active {
 		opacity: 1;
 	}
@@ -1257,7 +1256,7 @@ body{
 }
 @media handheld{
 	body{
-		background: #999;
+		background: #000;
 	}
 }
 
