@@ -1201,7 +1201,9 @@ body{
 		margin-right: 20px;
 	}
 }
-@media screen{
+@media all and (not handheld){
+	body{
+		background: #f1f;
 	/*.search:hover .search_svg_active {
 		opacity: 1;
 	}
