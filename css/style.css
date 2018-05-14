@@ -1254,6 +1254,17 @@ body{
 		transform: scale(1.04);
 	}
 }
+@media handheld{
+	.search:hover .search_svg_active {
+		opacity: 0;
+	}
+	.search:hover{
+		background: none;
+	}
+	.search:hover .search_svg {
+		opacity: 1;
+	}
+}
 
 
 
