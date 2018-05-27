@@ -223,8 +223,8 @@ body{
 	cursor: pointer;
 	width: 800px;
 	height: 540px;
-	background: url(http://via.placeholder.com/800x540);
-	transition-duration: 0.2s;
+	background: url(../img/space_img/far_cry_5/800540.jpg);
+	transition-duration: 0.4s;
 }
 .overflow{
 	overflow: hidden;
@@ -248,10 +248,22 @@ body{
 }
 .other_img1{
 	cursor: pointer;
-	transition-duration: 0.2s;
+	transition-duration: 0.4s;
 	width: 410px;
 	height: 260px;
-	background: url(http://via.placeholder.com/410x260);
+}
+.yel_block{
+	opacity: 0.5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #ff1;
+}
+.other_background1{
+	background: url(../img/space_img/totalwar/410260.jpg);
+}
+.other_background2{
+	background: url(../img/space_img/totalwar/410260.jpg);
 }
 .other_img1_upper{
 	position: relative;
@@ -305,9 +317,8 @@ body{
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	opacity: 0.5;
 	height: 50px;
-	background: #000;
+	background: rgb(0,0,0,0.5);
 }
 .semi_podblock{
 	float: left;
@@ -451,7 +462,7 @@ body{
 .block1{
 	width: 490px;
 	height: 230px;
-	background: url(http://via.placeholder.com/490x230);
+	background: url(../img/space_img/far_cry_5/490230.jpg);
 }
 .block2{
 	width: 330px;
@@ -1142,7 +1153,7 @@ body{
 		transition-duration: 0.7s;
 	}
 	.slider{
-		height: 930px;
+		height: 650px;
 	}
 	.main_img_upper{
 		margin-left: 35px;
@@ -1199,6 +1210,9 @@ body{
 	}
 	.yes_margin{
 		margin-right: 20px;
+	}
+	.other_img1_upper{
+		display: none;
 	}
 }
 @media (hover: hover){
