@@ -454,7 +454,7 @@ body{
 }
 .game_block{
 	cursor: pointer;
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 }
 .norm{
 	overflow: hidden;
@@ -549,7 +549,7 @@ body{
 	width: 220px;
 }
 .bitnam{
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 	width: 220px;
 	height: 100px;
 	cursor: pointer;
@@ -672,7 +672,7 @@ body{
 }
 .special_offer{
 	cursor: pointer;
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 	height: 330px;
 	width: 160px;
 	background: #F88948;
@@ -716,7 +716,7 @@ body{
 	cursor: pointer;
 	background: #FC522D;
 	float: right;
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 }
 .overflow_hidden{
 	margin-top: 20px;
@@ -772,7 +772,7 @@ body{
 	font-family: PlayB;
 }
 .c2_img{
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
 	cursor: pointer;
 	width: 320px;
 	height: 120px;
