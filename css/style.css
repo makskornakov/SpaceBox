@@ -260,10 +260,12 @@ body{
 	background: #ff1;
 }
 .other_background1{
-	background: url(../img/space_img/totalwar/410260.jpg);
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
 }
 .other_background2{
-	background: url(../img/space_img/totalwar/410260.jpg);
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .other_img1_upper{
 	position: relative;
@@ -462,12 +464,14 @@ body{
 .block1{
 	width: 490px;
 	height: 230px;
-	background: url(../img/space_img/far_cry_5/490230.jpg);
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .block2{
 	width: 330px;
 	height: 230px;
-	background: url(http://via.placeholder.com/330x230);
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 110%;
 }
 .margin_main{
 	margin-left: 30px;
@@ -499,17 +503,20 @@ body{
 .block3{
 	width: 310px;
 	height: 175px;
-	background: url(http://via.placeholder.com/310x175);
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
 }
 .block4{
 	width: 240px;
 	height: 175px;
-	background: url(http://via.placeholder.com/240x175);
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 120%;
 }
 .block5{
 	width: 240px;
 	height: 175px;
-	background: url(http://via.placeholder.com/240x175);
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 120%;
 }
 .smaller_h3{
 	letter-spacing: 1.5px;
@@ -521,12 +528,14 @@ body{
 .block6{
 	width: 410px;
 	height: 240px;
-	background: url(http://via.placeholder.com/410x240);
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .block7{
 	width: 410px;
 	height: 240px;
-	background: url(http://via.placeholder.com/410x240);
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
 }
 .last1_h2{
 	font-family: PlayR;
@@ -541,10 +550,29 @@ body{
 }
 .bitnam{
 	transition-duration: 0.2s;
-	background: url(http://via.placeholder.com/220x100);
 	width: 220px;
 	height: 100px;
 	cursor: pointer;
+}
+.bitnam_1{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.bitnam_2{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.bitnam_3{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.bitnam_4{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.bitnam_5{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .searh_block_result{
 	width: 380px;
@@ -558,7 +586,30 @@ body{
 	height: 40px;
 	margin-left: 20px;
 	float: left;
-	background: url(http://via.placeholder.com/90x40);
+}
+.res_img1{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.res_img2{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.res_img3{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.res_img4{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.res_img5{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.res_img6{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .search_game_line{
 	position: absolute;
@@ -725,7 +776,42 @@ body{
 	cursor: pointer;
 	width: 320px;
 	height: 120px;
-	background: url(http://via.placeholder.com/320x120);
+}
+.c2_1{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_2{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_3{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_4{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_5{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_6{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_7{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_8{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.c2_9{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
 }
 .c3_h2{
 	font-family: PlayB;
@@ -764,7 +850,18 @@ body{
 	position: relative;
 	width: 320px;
 	height: 120px;
-	background: url(http://via.placeholder.com/320x120);
+}
+.n_img_1{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
+}
+.n_img_2{
+	background: url(../img/space_img/totalwar/800540.jpg) center;
+	background-size: 100%;
+}
+.n_img_3{
+	background: url(../img/space_img/far_cry_5/800540.jpg) center;
+	background-size: 100%;
 }
 .semi_new_blcok{
 	transform: rotate(180deg);
